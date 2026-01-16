@@ -26,7 +26,7 @@ public class PruebasEjemplo {
 	        int[] arr = {-12, -1, -3, -4};
 	        int result = Calculation.findMax(arr);
 
-	        // El mayor valor es -1 (antes devolvía 0 ❌)
+	        // El mayor valor es -1 (antes devolvía 0 )
 	        assertEquals(-1, result);
 	    }
 
@@ -40,5 +40,6 @@ public class PruebasEjemplo {
 	        assertEquals(7, result);
 	    }
 	}
+
 
 
